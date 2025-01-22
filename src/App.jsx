@@ -1,3 +1,5 @@
+import MissionControl from "./MissionControl";
+
 function App() {
   const INITIAL_MISSIONS = [
     { id: 1, name: "Mars Rover", status: "Planned", crew: ["Alice", "Bob"] },
@@ -52,7 +54,11 @@ function App() {
     },
   ];
 
-  return <></>;
+  return (
+    <>
+      <MissionControl missions={INITIAL_MISSIONS} />
+    </>
+  );
 }
 
 export default App;
