@@ -1,0 +1,16 @@
+.MissionAction-button-launch,
+.MissionAction-button-complete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 40px;
+  margin: 10px;
+  color: white;
+  border: 2px solid rgb(15, 255, 23);
+  background-color: black;
+}
+
+.MissionAction-button-complete {
+  margin-right: 0;
+}

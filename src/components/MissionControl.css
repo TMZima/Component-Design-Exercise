@@ -1,0 +1,16 @@
+.MissionControl-filter-container {
+  margin: 20px 0;
+}
+
+.MissionControl-mission-container {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid white;
+}
+
+.MissionControl-mission-container:last-child {
+  margin-bottom: 20px;
+}

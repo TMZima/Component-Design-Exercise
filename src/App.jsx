@@ -1,4 +1,6 @@
-import MissionControl from "./MissionControl";
+import "./App.css";
+
+import MissionControl from "./components/MissionControl";
 
 function App() {
   const INITIAL_MISSIONS = [
@@ -55,9 +57,9 @@ function App() {
   ];
 
   return (
-    <>
-      <MissionControl missions={INITIAL_MISSIONS} />
-    </>
+    <div className="App">
+      <MissionControl initialMissions={INITIAL_MISSIONS} />
+    </div>
   );
 }
 
